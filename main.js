@@ -57,7 +57,7 @@ var nextDate = getEarliestDateFromNow(dates, now.format("YYYYMMDD"));
 var nextMoment = moment(nextDate, "YYYYMMDD");
 var nextWeek = dates[getKeyFromArray(dates, nextDate)][nextDate];
 if (nextWeek === "A") {
-    document.getElementById("next").innerHTML = "An <b>" + nextWeek + "</b> week starts in <b>" + nextMoment.countdown(now, countdown.DAYS|countdown.HOURS).toString() + "</b>.";
+    document.getElementById("next").innerHTML = "An <b>" + nextWeek + " week</b> starts in <b>" + nextMoment.countdown(now, countdown.DAYS|countdown.HOURS).toString() + "</b>.";
 } else if (nextWeek === "B") {
     document.getElementById("next").innerHTML = "A <b>" + nextWeek + " week</b> starts in <b>" + nextMoment.countdown(now, countdown.DAYS|countdown.HOURS).toString() + "</b>.";
 } else {
