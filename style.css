@@ -1,20 +1,32 @@
 body {
     text-align:center;
     background-color: white;
+    font-family: Arial, sans-serif;
     font-size:12pt;
 }
+footer {
+    color: #999999
+}
+a:hover, a:focus {
+    color: #005580;
+    text-decoration: underline;
+}
+a:hover, a:active {
+    outline: 0;
+}
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+
 #answer {
     margin-top: 200px;
     font-weight: bold;
     font-size: 10em;
-    font-family: Arial, sans-serif;
     text-decoration: none;
     color: black;
 }
 #next {
     font-size: 1.5em;
-    font-family: Arial, sans-serif;
-}
-#update, #footer {
-    font-family: Arial, sans-serif;
 }
