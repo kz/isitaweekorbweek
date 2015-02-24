@@ -17,10 +17,6 @@ footer {
 	color: #999999
 }
 
-footer p {
-	font-weight:300;
-}
-
 a:hover, a:focus {
 	color: #005580;
 	text-decoration: underline;
