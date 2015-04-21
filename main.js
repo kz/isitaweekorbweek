@@ -26,7 +26,7 @@ function getEarliestDateFromNow(array, now) {
 }
 
 var dates = [
-    {"20150421":"A"}, // Trinity 2015
+    {"20150420":"A"}, // Trinity 2015
     {"20150427":"B"},
     {"20150504":"A"}, 
     {"20150511":"B"},
