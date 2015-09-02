@@ -26,7 +26,7 @@ function getEarliestDateFromNow(array, now) {
 }
 
 var dates = [
-    {"20150902":"A"}, // Michaelmas 2015 - TODO: Monday bug 20150831
+    {"20150831":"A"}, // Michaelmas 2015 - Monday bug 20150831 from 20150902
     {"20150907":"B"},
     {"20150914":"A"},
     {"20150921":"B"},
