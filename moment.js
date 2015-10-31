@@ -2331,7 +2331,7 @@
                     diff < 0 ? 'lastDay' :
                     diff < 1 ? 'sameDay' :
                     diff < 2 ? 'nextDay' :
-                    diff < 7 ? 'nextWeek' : 'sameElse';
+                    diff < 7 ? 'nextWeekLetter' : 'sameElse';
             return this.format(this.localeData().calendar(format, this, moment(now)));
         },
 
